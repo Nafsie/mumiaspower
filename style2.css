@@ -1,0 +1,124 @@
+/* Header */
+.site-header {
+  width: 100%;
+  height: 80px; 
+  background-color: #1a1a1a;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #B51E00;
+}
+
+.nav-link {
+  color: white;
+  margin-left: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #f0a500;
+}
+
+/* Carousel (Compact Hero Section) */
+.carousel-item {
+  width: 100%;
+  height: 800px;             /* Compact height */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-caption-right {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: right;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.carousel-caption-right h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption-right p {
+  font-size: 1.2rem;
+}
+
+/* Cards */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.1);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: right;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+.card-overlay h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-overlay p {
+  font-size: 1rem;
+}
+.statistics {
+  background-color: #f8f9fa; /* Light background */
+}
+
+.statistics h2 {
+  color: #1a1a1a; /* Dark text for numbers */
+}
+
+.statistics p {
+  font-size: 1rem;
+  color: #6c757d; /* Bootstrap muted */
+}
+
+/* Optional hover effect for fun */
+.statistics .col-md-3:hover h2 {
+  color: #f0a500; /* Accent color on hover */
+  transition: color 0.3s ease;
+}
+
