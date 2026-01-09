@@ -1,203 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mumias Power</title>
-  <link rel="stylesheet" href="style2.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumias Power Control - Engineering & Construction</title>
+    <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
+    <header class="header">
+        <nav class="navbar">
+    <div class="container">
+        <div class="logo">
+            <img src="/src/images/mumias logo_page-0001.jpg" alt="">
+            
+        </div>
 
-<!-- Bootstrap Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <!-- Logo + Company Name -->
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="assets/images/safety.jfif" alt="Logo" height="50" class="me-2">
-      <span class="fw-bold">MUMIAS POWER</span>
-    </a>
-
-    <!-- Toggler for mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Nav links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="servicesDropdown">
-            <li><a class="dropdown-item" href="#">Network Installation</a></li>
-            <li><a class="dropdown-item" href="#">Building and Construction</a></li>
-            <li><a class="dropdown-item" href="#">Shop</a></li>
-            <li><a class="dropdown-item" href="#">Swimming Pools</a> </li>
-          </ul>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="#">safety</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-      </ul>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
-  </div>
 </nav>
 
+    </header>
 
-
-<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active" style="background-image: url('assets/images/construction1.jpg');">
-      <div class="carousel-caption-right">
-        <h1>Building Dreams</h1>
-        <p>Quality Residential & Commercial Projects</p>
-      </div>
-    </div>
-
-    <div class="carousel-item" style="background-image: url('assets/images/crane2.jfif');">
-      <div class="carousel-caption-right">
-        <h1>Innovative Designs</h1>
-        <p>Modern, Safe, and Durable Construction</p>
-      </div>
-    </div>
-
-    <div class="carousel-item" style="background-image: url('assets/images/img4.jpg');">
-      <div class="carousel-caption-right">
-        <h1>Reliable Services</h1>
-        <p>Your Vision, Our Expertise</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Controls -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<section class="statistics py-5 bg-light">
-  <div class="container">
-    <div class="row text-center">
-
-      <div class="col-md-3 mb-4">
-        <h2 class="display-4 fw-bold">120+</h2>
-        <p class="text-muted">Projects Completed</p>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <h2 class="display-4 fw-bold">50+</h2>
-        <p class="text-muted">Clients</p>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <h2 class="display-4 fw-bold">30</h2>
-        <p class="text-muted">Staff</p>
-      </div>
-
-      <div class="col-md-3 mb-4">
-        <h2 class="display-4 fw-bold">10</h2>
-        <p class="text-muted">Years</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-<section class="projects py-5">
-  <div class="container">
-
-    <!-- Row 1: Image Left, Text Right -->
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <img src="assets/images/B&C.jpg" class="img-fluid rounded" alt="Project 1">
-      </div>
-      <div class="col-md-6">
-        <div class="text-card p-4 rounded">
-            <h3>Residential Building</h3>
-        <p>We build high-quality, modern homes with durable materials and innovative designs.</p>
-
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mumias Power Control</h1>
+            <p>Professional Engineering, Construction & Installation Services</p>
+            <a href="#services" class="cta-button">Explore Services</a>
         </div>
-        
-      </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <a href="#service/Construction" class="service-card">
+                    <img src="/src/images/construction1.jpg" alt="Construction">
+                    <h3>Construction</h3>
+                    <p>Professional construction services with attention to detail and quality craftsmanship for residential and commercial projects.</p>
+                </a>
+                <a href="#service/Engineering" class="service-card">
+                    <img src="/src/images/crane2.jfif" alt="Engineering">
+                    <h3>Engineering</h3>
+                    <p>Expert engineering solutions including design, planning, and structural analysis for complex projects.</p>
+                </a>
+                <a href="#service/Computer%20&%20Network%20Installation" class="service-card">
+                    <img src="/src/images/network.jpg" alt="Network Installation">
+                    <h3>Computer & Network Installation</h3>
+                    <p>Complete IT infrastructure setup and network installation services for businesses of all sizes.</p>
+                </a>
+                <a href="#service/Electrical%20&%20Electronics" class="service-card">
+                    <img src="/src/images/img4.jpg" alt="Electrical Work">
+                    <h3>Electrical & Electronics</h3>
+                    <p>Professional electrical installation, maintenance, and electronics services meeting all safety standards.</p>
+                </a>
+                <a href="#service/Stationery%20Supplies" class="service-card">
+                    <img src="/src/images/img4.jpg" alt="Stationery">
+                    <h3>Stationery Supplies</h3>
+                    <p>Quality office and industrial stationery supplies tailored to your business needs.</p>
+                </a>
+                <a href="#service/Technical%20Consultation" class="service-card">
+                    <img src="/src/images/B&C.jpg" alt="Consultation">
+                    <h3>Technical Consultation</h3>
+                    <p>Expert advisory services for project planning and technical implementation strategies.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div id="service-detail" class="service-detail-page" style="display: none;">
+        <div class="service-detail-header">
+            <button class="back-button" onclick="backToHome()">← Back</button>
+            <h2 id="service-title"></h2>
+        </div>
+        <div class="container">
+            <div id="service-projects-grid" class="projects-grid">
+            </div>
+        </div>
     </div>
 
-    <!-- Row 2: Text Left, Image Right -->
-    <div class="row align-items-center mb-5 flex-md-row-reverse">
-      <div class="col-md-6">
-        <img src="assets/images/crane2.jfif" class="img-fluid rounded" alt="Project 2">
-      </div>
-      <div class="col-md-6">
-        <h3>Commercial Complex</h3>
-        <p>Our commercial projects combine safety, aesthetics, and functionality for businesses.</p>
-      </div>
-    </div>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/src/images/swimming.jpg" alt="Commercial Building">
+                    <div class="project-info">
+                        <h3>Swimming Pool Construction</h3>
+                        <p>Professional swimming pool construction with complete electrical, plumbing, and finishing services for lasting quality and enjoyment.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/src/images/transformer.jpg" alt="Data Center">
+                    <div class="project-info">
+                        <h3>Transformer Commission</h3>
+                        <p>Complete network infrastructure installation with redundancy and security systems.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/src/images/factory.jpg" alt="Industrial Facility">
+                    <div class="project-info">
+                        <h3>Factory Technical Construction</h3>
+                        <p>Complete electrical and engineering modernization of existing industrial complex.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/src/images/network.jpg" alt="Smart Office">
+                    <div class="project-info">
+                        <h3>Network Installation</h3>
+                        <p>Complete network infrastructure solutions including structured cabling (Cat5e, Cat6, fiber optic), WiFi access point installation, router configuration, switch setup, and network security implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Row 3: Image Left, Text Right -->
-    <div class="row align-items-center mb-5">
-      <div class="col-md-6">
-        <img src="assets/images/swimming.jpg" class="img-fluid rounded" alt="Project 3">
-      </div>
-      <div class="col-md-6">
-        <h3>Swimming Pools</h3>
-        <p>We design and build custom swimming pools for both residential and commercial properties.</p>
-      </div>
-    </div>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Mumias Power Control is a leading provider of comprehensive engineering, construction, and installation services. With years of experience, we deliver quality solutions across multiple sectors.</p>
+                    <p>Our team of skilled professionals is committed to excellence, safety, and customer satisfaction. We handle projects of any scale with precision and professionalism.</p>
+                    <ul class="about-list">
+                        <li>Experienced and certified professionals</li>
+                        <li>Quality-assured projects</li>
+                        <li>Timely project completion</li>
+                        <li>Competitive pricing</li>
+                        <li>24/7 customer support</li>
+                    </ul>
+                </div>
+                <img src="https://images.pexels.com/photos/3962287/pexels-photo-3962287.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Team Work">
+            </div>
+        </div>
+    </section>
 
-  </div>
-</section>
-<section class="projects-gallery">
-  <div class="container-fluid px-0">
-    <h2 class="text-center py-4">Our Projects</h2>
-    <div class="row g-0"> <!-- g-0 removes gutters -->
-      
-      <div class="col-6 col-md-3">
-        <img src="assets/images/IMG-20251119-WA0091.jpg" class="img-fluid" alt="Project 1">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/images/IMG-20251119-WA0096.jpg" class="img-fluid" alt="Project 2">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/images/IMG-20251119-WA0104.jpg" class="img-fluid" alt="Project 3">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/images/" class="img-fluid" alt="Project 4">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/project5.jpg" class="img-fluid" alt="Project 5">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/project6.jpg" class="img-fluid" alt="Project 6">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/project7.jpg" class="img-fluid" alt="Project 7">
-      </div>
-      <div class="col-6 col-md-3">
-        <img src="assets/project8.jpg" class="img-fluid" alt="Project 8">
-      </div>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+254 (0) 722 000 000</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>smukabane1@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Address</h3>
+                        <p>Mumias, Kenya</p>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    </div>
-  </div>
-</section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Mumias Power Control. All rights reserved.</p>
+        </div>
+    </footer>
 
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>
-
-
